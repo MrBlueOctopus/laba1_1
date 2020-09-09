@@ -19,20 +19,20 @@ public class Main {
 	for (i=0; i<a; ++i){
 	    sum+= arrayList.get(i);
     }
-	System.out.println(sum);
+	System.out.println("Сумма чисел массива с помощью цикла for: "+sum);
 	i=0;
 	sum=0;
 	while (i<a){
 	    sum+=arrayList.get(i);
 	    ++i;
     }
-	System.out.println(sum);
+	System.out.println("Сумма чисел массива с помощью цикла while: "sum);
 	sum =0;
 	i=0;
 	do {
 	    sum+=arrayList.get(i);
 	    ++i;
     }while (i<a);
-	System.out.println(sum);
+	System.out.println("Сумма чисел массива с помощью цикла do while: "+sum);
     }
 }
